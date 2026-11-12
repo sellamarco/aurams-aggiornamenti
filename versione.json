@@ -1,20 +1,12 @@
 {
-  "versione": "2.3.0",
+  "versione": "2.4.0",
   "data": "12/11/2026",
   "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/latest/download/AuraMS.exe",
   "note": [
-    "Agenda: nuovo pulsante «Sposta» accanto a ogni lavoratore per trasferirlo in un'altra giornata già aperta (con ditta, dati e note).",
-    "Agenda: le colonne delle prenotazioni e dei nominativi si ordinano con un clic sul titolo (crescente / decrescente).",
-    "Agenda: pulsante «Stampa» per stampare la giornata così come la vedi (dati, ditte e nominativi nell'ordine scelto).",
-    "Luoghi a menu a tendina, gestiti in Impostazioni › Luoghi, con la voce «Altro…» per i luoghi occasionali.",
-    "Le giornate dei corsi con più date compaiono tutte in agenda (es. 1/2, 2/2); spostando una data da una parte si aggiorna anche l'altra e l'agenda avvisa se il medico/docente è già impegnato.",
-    "Colori per tipo di appuntamento in Impostazioni › Attività dell'agenda, con tavolozza e legenda sopra il calendario; tolto il colore dai Corsi.",
-    "Attestati: firma del medico presa dalle Impostazioni (anche se nel corso il nome è scritto con «Dott.»), «Svoltosi a…» con la località e piè di pagina compatto con P.IVA, telefono e mail.",
-    "Date: le barre «/» si inseriscono da sole, l'anno a 2 cifre viene completato e le date impossibili si colorano di rosso.",
-    "Codice fiscale: calcolo e controllo anche per i nati all'estero (Stati esteri); sui documenti «nato in Romania».",
-    "Corsi: per ora attivo solo il Primo Soccorso (gli altri corsi si riattivano in Impostazioni corsi › Catalogo).",
-    "Questionari: selezionati in automatico secondo i moduli delle giornate; i PDF dagli altri PC si aprono nel browser e la cartella del corso si scarica in .zip.",
-    "«Consenso in bianco» spostato nella sezione Vaccinazioni."
+    "Tolta la sezione Vaccinazioni (diventerà un programma a parte): AuraMS ora è Agenda, Visite e Corsi.",
+    "Le vaccinazioni già registrate restano salvate nell'archivio, senza essere più mostrate.",
+    "Scheda della persona: anagrafica e storico delle giornate in agenda.",
+    "Programma più leggero: tolti il lettore di documenti e la lettura dal telefono."
   ],
-  "sha256": "a0fb004add83edd0dfdb0b03051cfec71c369be772d8ebf34891b703dee79153"
+  "sha256": "1574a2486576a054b9b4532938d99330d3ebfcab28d7f803ac83fb3e467c5f92"
 }
