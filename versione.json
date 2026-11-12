@@ -1,0 +1,12 @@
+{
+  "versione": "2.2.0",
+  "data": "11/11/2026",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/latest/download/AuraMS.exe",
+  "note": [
+    "Installazione con un solo file: al primo avvio AuraMS.exe chiede «Questo è il server», «Collegati al server» o «Usa solo su questo PC».",
+    "Sul server AuraMS parte da solo a ogni accensione, anche senza accesso utente; i PC trovano il server da soli nella rete e ricevono l'icona sul desktop.",
+    "Aggiornamenti automatici: quando c'è una nuova versione compare il pulsante «Aggiornamento» e con un clic il server si aggiorna da solo (archivio e impostazioni restano).",
+    "Note di versione e controllo aggiornamenti in Impostazioni › Aggiornamenti."
+  ],
+  "sha256": "ab66b619f83fc7254dfbfad781b3be4f668a386c983eedfd1078b19d33e82b68"
+}
