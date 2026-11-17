@@ -1,12 +1,16 @@
 {
-  "versione": "2.4.0",
-  "data": "12/11/2026",
+  "versione": "2.4.1",
+  "data": "16/11/2026",
   "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/latest/download/AuraMS.exe",
   "note": [
-    "Tolta la sezione Vaccinazioni (diventerà un programma a parte): AuraMS ora è Agenda, Visite e Corsi.",
-    "Le vaccinazioni già registrate restano salvate nell'archivio, senza essere più mostrate.",
-    "Scheda della persona: anagrafica e storico delle giornate in agenda.",
-    "Programma più leggero: tolti il lettore di documenti e la lettura dal telefono."
+    "Corsi: se nel corso ci sono partecipanti di più aziende, gli attestati vengono creati in un file per ogni azienda (es. «Attestati - ALFA SRL.pdf»); anche gli attestati singoli sono divisi in una cartella per azienda.",
+    "«Sposta»: il lavoratore/corsista passa nella nuova giornata con tutta l'anagrafica (codice fiscale, sesso, data e luogo di nascita, mansione); se è iscritto a un corso passa anche nel corso della nuova giornata.",
+    "«Sposta»: nella finestra si può creare subito una nuova giornata (data, orari, posti) e spostarci il lavoratore con un clic.",
+    "Corsi in più giornate: nuovo pulsante «Recupero» accanto al corsista assente a una giornata. Si sceglie (o si crea) il giorno del recupero: il corsista resta iscritto al suo corso e alle altre giornate; nel giorno di recupero compare come «↺ recupero» nel registro presenze e nei test, ma l'attestato lo riceve dal proprio corso.",
+    "Attestato di chi recupera: riporta le sue date (la giornata persa è sostituita dal giorno del recupero) e la data di rilascio non è prima del recupero; se il recupero viene cancellato, annullato o segnato assente tornano le date del corso.",
+    "Giornata in agenda: cliccando su una ditta, sotto compaiono solo i suoi lavoratori (con «Mostra tutti» e «Aggiungi lavoratori a …»).",
+    "Conteggio più chiaro: «Persone prenotate: 6 su 12 posti · 6 liberi» (automatico); i posti si cambiano con un clic sul numero.",
+    "Stampa della giornata: si sceglie che cosa stampare (riepilogo o elenco/registro), l'ordine di lavoratori e ditte (orario, cognome, azienda, nascita, accertamenti, stato, scadenza; crescente o decrescente), una sola ditta e i lavoratori raggruppati per azienda."
   ],
-  "sha256": "1574a2486576a054b9b4532938d99330d3ebfcab28d7f803ac83fb3e467c5f92"
+  "sha256": "23422e1175f6d94f65bcef4d254926330e440b4034024cc9c2846240067c0135"
 }
