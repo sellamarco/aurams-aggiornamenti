@@ -1,13 +1,17 @@
 {
-  "versione": "2.5.2",
+  "versione": "2.5.3",
   "data": "17/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.2/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.2/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.2/AuraMS_Setup.exe",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.3/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.3/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.3/AuraMS_Setup.exe",
   "note": [
-    "Installer: casella «Crea un'icona di AuraMS sul desktop» (già spuntata). Se l'icona c'è già, AuraMS non ne crea una seconda."
+    "Backup automatico (Impostazioni › Sicurezza e backup): ogni giorno all'orario scelto una copia completa (archivio dell'agenda e dei Corsi, documenti, loghi, firme) in un file .zip nella cartella scelta (disco, disco esterno o cartella di rete, anche con utente e password conservata cifrata). Se il server era spento parte appena si riaccende; si tengono solo le ultime copie. Pulsanti «Sfoglia», «Prova» e «Fai un backup adesso».",
+    "PC collegati: se il server è spento compare l'avviso «Il server AuraMS non risponde» con «Riprova» (e riprova da solo ogni pochi secondi) invece della pagina di benvenuto, così nessuno crea per sbaglio un archivio separato. L'icona sul desktop dei PC con AuraMS installato apre il programma.",
+    "Avvio all'accensione di Windows: in Impostazioni › Sicurezza e backup, sul computer dove AuraMS è acceso «solo su questo PC» (icona vicino all'orologio), il pulsante «Avvia AuraMS all'accensione di Windows» lo trasforma nel server con un clic: parte da solo anche senza accesso, con lo stesso archivio.",
+    "Corretto: «Questo è il server» poteva fermarsi con «errore PowerShell» sui computer dove AuraMS non era mai stato installato come server (e quindi non partiva all'accensione).",
+    "Protezione dell'archivio: AuraMS non parte come server se l'archivio si trova in una cartella di rete (usato da più PC si danneggerebbe)."
   ],
-  "sha256": "6a019b6f535a118ca5db00da0faa76279153ec57223a08c2afb8de4265aa872d",
-  "sha256_pacchetto": "47587c854c7b84bd817a2b0393c2af279b88a6ca5dea9acb6f8936ed8a551b3c",
-  "sha256_installer": "16bbc99754e45a411ea276fa3578fba262775a8cc3d0c24b5231f4796eb7b4d8"
+  "sha256": "2e8d8d5d2e9236755b7c05326272a426f92929141b6216c985cc20e9152e1c48",
+  "sha256_pacchetto": "fc73edcb7bdc13fc483b2cb78cce34897729a9640a23072795e66196e298dd7b",
+  "sha256_installer": "1e8b9547912acb89dbbf98980133fc03025a0f04a9263a3f09c3f493a1e26c49"
 }
