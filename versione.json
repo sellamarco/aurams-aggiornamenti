@@ -1,13 +1,13 @@
 {
-  "versione": "2.5.1",
+  "versione": "2.5.2",
   "data": "17/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.1/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.1/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.1/AuraMS_Setup.exe",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.2/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.2/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.2/AuraMS_Setup.exe",
   "note": [
-    "Tolto dal programma ogni riferimento alla vecchia sezione delle vaccinazioni (che ora è un progetto a parte). Al primo avvio l'archivio viene ripulito una volta sola; se c'erano registrazioni, prima vengono salvate in un file nella cartella «dati\\backup»."
+    "Installer: casella «Crea un'icona di AuraMS sul desktop» (già spuntata). Se l'icona c'è già, AuraMS non ne crea una seconda."
   ],
-  "sha256": "393f999da143f3c6745568f6d80a50f8d2acecf528167d9db65354361c422fc2",
-  "sha256_pacchetto": "314b12fb308d96c5449fc44fc4838fef8e60ad1e36e3e8d623eea0ca0ed41c93",
-  "sha256_installer": "e0de38d95f42257d590615d296d01d5edccdbc439c102a8615298f07e1603783"
+  "sha256": "6a019b6f535a118ca5db00da0faa76279153ec57223a08c2afb8de4265aa872d",
+  "sha256_pacchetto": "47587c854c7b84bd817a2b0393c2af279b88a6ca5dea9acb6f8936ed8a551b3c",
+  "sha256_installer": "16bbc99754e45a411ea276fa3578fba262775a8cc3d0c24b5231f4796eb7b4d8"
 }
