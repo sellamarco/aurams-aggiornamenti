@@ -1,23 +1,13 @@
 {
-  "versione": "2.5.0",
+  "versione": "2.5.1",
   "data": "17/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.0/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.0/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.0/AuraMS_Setup.exe",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.1/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.1/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.1/AuraMS_Setup.exe",
   "note": [
-    "Nuovo installer AuraMS_Setup.exe: installazione guidata in C:\\AuraMS (scelta della cartella, menu Start, disinstallazione da Impostazioni di Windows). Se AuraMS è già presente lo sostituisce lasciando archivio e impostazioni; disinstallando, l'archivio resta.",
-    "Aggiornamenti più semplici: non si ripassa dall'installer. AuraMS scarica il pacchetto, sostituisce solo la cartella interna del programma e si riavvia da solo, con una barra di avanzamento nella finestra; la pagina si ricarica da sola senza aprirne un'altra e la vecchia versione si chiude del tutto (anche l'icona vicino all'orologio). Se qualcosa va storto torna da solo alla versione precedente.",
-    "Eliminazioni più sicure: la conferma ha il pulsante rosso «Elimina», «Annulla» già selezionato (Invio annulla) e ignora i clic del primo mezzo secondo, così un doppio clic non elimina nulla per errore. Chiedono conferma anche la ✕ di una giornata e di un partecipante nei Corsi.",
-    "Archivio unico: agenda e Corsi usano lo stesso archivio di persone e aziende. Una modifica fatta da una parte (codice fiscale, nascita, azienda…) si vede subito anche dall'altra, senza passaggi di allineamento.",
-    "Al primo avvio il programma fa una copia di sicurezza dei due archivi e li unisce una volta sola, riconoscendo le persone da codice fiscale, nome e data di nascita; gli omonimi con dati diversi restano separati.",
-    "Impostazioni › Archivio persone: elenco dei possibili doppioni (stesso cognome e nome) con il pulsante «Unisci» per riunire appuntamenti, corsi e dati in una sola scheda.",
-    "Corsi: la stessa persona scritta due volte nello stesso corso viene iscritta una volta sola; un nome senza dati viene riconosciuto se in archivio c'è una sola persona con quel nome.",
-    "Corsi: una persona con appuntamenti in agenda non si può eliminare dall'archivio dei Corsi; un'azienda eliminata dai Corsi resta nello storico.",
-    "Prenotazione azienda (pulsante «nomi»): scrivendo cognome o nome compaiono tutte le persone in archivio, di qualsiasi azienda (la persona non è legata a una ditta: l'azienda vale per la singola prenotazione); scegliendone una si compilano data di nascita, codice fiscale e mansione, senza creare doppioni. Aggiunta la colonna Codice fiscale.",
-    "Prenotazione azienda: riaprendo la finestra si vedono i nominativi già inseriti e si possono togliere con la X (la modifica vale quando si salva); il numero di persone si aggiorna.",
-    "Il pulsante «nomi» si apre al primo clic (prima a volte serviva un secondo clic); con Invio si passa correttamente alla riga successiva."
+    "Tolto dal programma ogni riferimento alla vecchia sezione delle vaccinazioni (che ora è un progetto a parte). Al primo avvio l'archivio viene ripulito una volta sola; se c'erano registrazioni, prima vengono salvate in un file nella cartella «dati\\backup»."
   ],
-  "sha256": "8a759791cbf199e0b89ba0de6fae2886696069fa53a07f8749e57b7c25dc1242",
-  "sha256_pacchetto": "822eee8a499ddbf8c7450379ae4255cdbaffd7e3854b8f961d6b504d52d3a4ab",
-  "sha256_installer": "180793755b76259ecfd57ecbc26c5aabde8b7c368869dab6312a6f46cd8f342c"
+  "sha256": "393f999da143f3c6745568f6d80a50f8d2acecf528167d9db65354361c422fc2",
+  "sha256_pacchetto": "314b12fb308d96c5449fc44fc4838fef8e60ad1e36e3e8d623eea0ca0ed41c93",
+  "sha256_installer": "e0de38d95f42257d590615d296d01d5edccdbc439c102a8615298f07e1603783"
 }
