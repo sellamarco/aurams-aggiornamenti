@@ -1,17 +1,15 @@
 {
-  "versione": "2.5.3",
-  "data": "17/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.3/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.3/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.3/AuraMS_Setup.exe",
+  "versione": "2.5.4",
+  "data": "18/11/2026",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.4/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.4/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.4/AuraMS_Setup.exe",
   "note": [
-    "Backup automatico (Impostazioni › Sicurezza e backup): ogni giorno all'orario scelto una copia completa (archivio dell'agenda e dei Corsi, documenti, loghi, firme) in un file .zip nella cartella scelta (disco, disco esterno o cartella di rete, anche con utente e password conservata cifrata). Se il server era spento parte appena si riaccende; si tengono solo le ultime copie. Pulsanti «Sfoglia», «Prova» e «Fai un backup adesso».",
-    "PC collegati: se il server è spento compare l'avviso «Il server AuraMS non risponde» con «Riprova» (e riprova da solo ogni pochi secondi) invece della pagina di benvenuto, così nessuno crea per sbaglio un archivio separato. L'icona sul desktop dei PC con AuraMS installato apre il programma.",
-    "Avvio all'accensione di Windows: in Impostazioni › Sicurezza e backup, sul computer dove AuraMS è acceso «solo su questo PC» (icona vicino all'orologio), il pulsante «Avvia AuraMS all'accensione di Windows» lo trasforma nel server con un clic: parte da solo anche senza accesso, con lo stesso archivio.",
-    "Corretto: «Questo è il server» poteva fermarsi con «errore PowerShell» sui computer dove AuraMS non era mai stato installato come server (e quindi non partiva all'accensione).",
-    "Protezione dell'archivio: AuraMS non parte come server se l'archivio si trova in una cartella di rete (usato da più PC si danneggerebbe)."
+    "Recuperi: l'attestato riporta sempre la data del giorno di recupero al posto di quella persa, anche se il recupero è stato fissato in agenda prima di creare il corso (prima di generare i documenti AuraMS ricontrolla i recuperi).",
+    "Corso creato solo per il recupero: ora genera l'attestato anche per chi recupera, ed è quello del suo corso di origine con le sue date (giornate fatte là + giorno di recupero). Funziona anche se il corso del recupero è stato creato prima di quello di origine.",
+    "Durata dei corsi: su attestati, registro e documenti va la durata prevista dal tipo di corso (es. primo soccorso 16 o 12 ore, aggiornamenti 6 o 4), senza contare gli orari effettivi delle giornate. Nella scheda del corso il campo «Durata» segue il tipo di corso."
   ],
-  "sha256": "2e8d8d5d2e9236755b7c05326272a426f92929141b6216c985cc20e9152e1c48",
-  "sha256_pacchetto": "fc73edcb7bdc13fc483b2cb78cce34897729a9640a23072795e66196e298dd7b",
-  "sha256_installer": "1e8b9547912acb89dbbf98980133fc03025a0f04a9263a3f09c3f493a1e26c49"
+  "sha256": "691dde0a679a392d7159907bd3494a499208169ddd87e4b928a949f736ee4dc2",
+  "sha256_pacchetto": "88a4ee30bc8927d5317048120b5e8e4e0b8df3a27bd2de94fb4a6f6b20015d2a",
+  "sha256_installer": "78762e5ed426d48fb7b3470f8cb52c391baa73473f67a8e1cd24d1131daa5010"
 }
