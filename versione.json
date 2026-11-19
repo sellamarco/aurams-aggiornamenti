@@ -1,15 +1,16 @@
 {
-  "versione": "2.5.4",
-  "data": "18/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.4/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.4/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.4/AuraMS_Setup.exe",
+  "versione": "2.5.5",
+  "data": "19/11/2026",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.5/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.5/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.5/AuraMS_Setup.exe",
   "note": [
-    "Recuperi: l'attestato riporta sempre la data del giorno di recupero al posto di quella persa, anche se il recupero è stato fissato in agenda prima di creare il corso (prima di generare i documenti AuraMS ricontrolla i recuperi).",
-    "Corso creato solo per il recupero: ora genera l'attestato anche per chi recupera, ed è quello del suo corso di origine con le sue date (giornate fatte là + giorno di recupero). Funziona anche se il corso del recupero è stato creato prima di quello di origine.",
-    "Durata dei corsi: su attestati, registro e documenti va la durata prevista dal tipo di corso (es. primo soccorso 16 o 12 ore, aggiornamenti 6 o 4), senza contare gli orari effettivi delle giornate. Nella scheda del corso il campo «Durata» segue il tipo di corso."
+    "Agenda allineata ai Corsi: l'elenco dei nominativi mostra sesso, data e luogo di nascita e codice fiscale (le stesse colonne della scheda del corso) più le note. Anche «Prenotazione azienda» e «Aggiungi persona» chiedono gli stessi dati, con lo spazio per le note.",
+    "Tolte mansione e accertamenti dagli inserimenti e dagli elenchi dell'agenda (i dati già scritti restano nella scheda della persona).",
+    "Chi viene aggiunto nella scheda del corso compare anche nelle giornate del corso in agenda, con la sua azienda.",
+    "Corsi di più giornate: ogni giornata del corso si apre in agenda allo stesso modo. Cliccando una giornata che esisteva solo nei Corsi (es. la seconda), AuraMS la aggiunge all'agenda collegata al corso, con i partecipanti divisi per azienda: da lì si possono fissare Recupero e Sposta, segnare le presenze e aprire il corso. Il recupero di una seconda giornata finisce con la data giusta sull'attestato."
   ],
-  "sha256": "691dde0a679a392d7159907bd3494a499208169ddd87e4b928a949f736ee4dc2",
-  "sha256_pacchetto": "88a4ee30bc8927d5317048120b5e8e4e0b8df3a27bd2de94fb4a6f6b20015d2a",
-  "sha256_installer": "78762e5ed426d48fb7b3470f8cb52c391baa73473f67a8e1cd24d1131daa5010"
+  "sha256": "a0f34705d9ccc808e58ef1ecea2bab4f95494ebff22ddf6e8cc10fc05e180ba9",
+  "sha256_pacchetto": "b82e862b718614fea3046b2da5ab3d224adfc69a20eebbdbd679b2be4357000a",
+  "sha256_installer": "154d8595a11e294d4daeeed95b0a2c55cf2a459a05b247d5b4ac02c8531dbe6c"
 }
