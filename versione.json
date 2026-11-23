@@ -1,18 +1,15 @@
 {
-  "versione": "2.5.6",
-  "data": "19/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.6/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.6/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.6/AuraMS_Setup.exe",
+  "versione": "2.5.7",
+  "data": "23/11/2026",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.7/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.7/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.7/AuraMS_Setup.exe",
   "note": [
-    "Stampa della giornata più compatta: dati della giornata su due colonne; nei nominativi l'azienda viene subito dopo l'ora, tolte le colonne Stato e Scadenza (lo spazio va alle note); con «raggruppati per azienda» una sola tabella, con il nome della ditta solo sulla prima riga del gruppo (niente più titoli ripetuti). Se nessuno ha un orario la colonna Ora non compare. Tolta la colonna Stato anche dalle ditte.",
-    "Stampa della giornata: tolta la scelta «Ditte in ordine di» (doppione): le ditte seguono lo stesso ordine scelto per i lavoratori.",
-    "Giornate dei corsi in agenda: tolto il pulsante «Registro presenze» (il registro si fa dalla scheda del corso con «Apri il corso»).",
-    "Registro presenze dei corsi (anche quello stampato dall'agenda): chi recupera una giornata in un altro giorno resta in elenco ma, al posto delle caselle di firma, c'è «Recupera il gg/mm/aaaa»; chi è nel corso solo per un recupero ha accanto «(recupero)». Chi viene spostato in un'altra giornata o in un altro corso non compare più nel registro di partenza.",
-    "Registro presenze dall'agenda: il «Totale persone» non conta più due volte i lavoratori delle ditte e non conta chi recupera altrove.",
-    "La finestra di AuraMS si apre sempre a schermo intero, non più nell'ultima posizione ricordata (es. in basso a destra). Vale anche per le icone create sui PC collegati."
+    "Codice fiscale in «Prenotazione azienda» e «Aggiungi persona»: scritto il codice, se la persona è in archivio si compila tutta la riga; altrimenti sesso, data e luogo di nascita si ricavano dal codice. Al contrario, con cognome, nome, sesso, data e luogo il codice fiscale si calcola da solo.",
+    "Giornate collegate a un corso: chi viene inserito in agenda entra subito tra i partecipanti del corso con tutti i suoi dati e la sua azienda; chi viene tolto esce dal corso (se non è in un'altra giornata dello stesso corso).",
+    "Test dei corsi: chi recupera in un altro giorno la giornata di un modulo non riceve qui il test di quel modulo (lo riceve nel corso del giorno del recupero)."
   ],
-  "sha256": "c9518b04777cda332d17b79c4fd92b67c3ba7ccabd5e6e4a89c77595fdf272d0",
-  "sha256_pacchetto": "2b32a71553444577982a952612caeb67f51efcce50de0a4af37fea21a9575325",
-  "sha256_installer": "48826f103f4c43e23e1b79e06aeb44601a55ec8288b387995867d9d5b1132cb2"
+  "sha256": "6184790c3bd63287e459f07096cba34992f9a157b6979eff9c6c035e75eb234a",
+  "sha256_pacchetto": "3a7cdd0036af6352e81bd1ab3a400255c3f28152bef64307401f0ce5e0f84de6",
+  "sha256_installer": "d8675938638ef2c500b7d2ff60fe7e2fbcbd135da154a8def2332a94132a764f"
 }
