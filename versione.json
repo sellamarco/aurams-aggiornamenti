@@ -1,15 +1,20 @@
 {
-  "versione": "2.5.7",
-  "data": "23/11/2026",
-  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.7/AuraMS.exe",
-  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.7/AuraMS_pacchetto.zip",
-  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.7/AuraMS_Setup.exe",
+  "versione": "2.5.8",
+  "data": "24/11/2026",
+  "scarica": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.8/AuraMS.exe",
+  "pacchetto": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.8/AuraMS_pacchetto.zip",
+  "installer": "https://github.com/sellamarco/aurams-aggiornamenti/releases/download/v2.5.8/AuraMS_Setup.exe",
   "note": [
-    "Codice fiscale in «Prenotazione azienda» e «Aggiungi persona»: scritto il codice, se la persona è in archivio si compila tutta la riga; altrimenti sesso, data e luogo di nascita si ricavano dal codice. Al contrario, con cognome, nome, sesso, data e luogo il codice fiscale si calcola da solo.",
-    "Giornate collegate a un corso: chi viene inserito in agenda entra subito tra i partecipanti del corso con tutti i suoi dati e la sua azienda; chi viene tolto esce dal corso (se non è in un'altra giornata dello stesso corso).",
-    "Test dei corsi: chi recupera in un altro giorno la giornata di un modulo non riceve qui il test di quel modulo (lo riceve nel corso del giorno del recupero)."
+    "Configurazione guidata: al primo avvio AuraMS accompagna passo passo nella preparazione (dati dello studio e logo, medici e docenti con firma, luoghi, tipi di attività, e-mail, backup e avvio automatico). Si può saltare e riprendere quando si vuole da Impostazioni › Configurazione guidata.",
+    "Installazioni nuove senza dati di esempio: intestazione, logo e luoghi partono vuoti (si compilano con la configurazione guidata). Le installazioni già in uso tengono i dati che avevano.",
+    "Archivio persone spostato nell'agenda, come scheda accanto a Report: ricerca di tutte le persone (nome, codice fiscale, azienda) con apertura della scheda, e sotto i possibili doppioni da unire.",
+    "Tema scuro: i campi degli orari e del calendario sono scuri come gli altri.",
+    "Attività dell'agenda: restano solo visita di medicina del lavoro, esami ematochimici e corso di primo soccorso (le altre proposte finora vengono tolte; quelle già usate in qualche giornata restano nascoste). Nella configurazione guidata il passo «Attività» spiega a cosa servono categoria, durata, periodicità e colore.",
+    "E-mail alle aziende: testi predefiniti formali (proposta di date e convocazione) e firma personalizzabile in Impostazioni › E-mail (se vuota si usa l'intestazione dello studio). Anteprima di come arriva l'e-mail e pulsante per ripristinare i testi predefiniti. I testi mai modificati passano da soli a quelli nuovi.",
+    "Corretto: la convocazione all'azienda non partiva quando nella giornata c'erano prenotazioni di ditte. Ora allega l'elenco dei convocati (non il registro con le firme), non elenca chi recupera in un altro giorno, e indica orario e sede; nella proposta funzionano anche {data} e {sede}. Le e-mail hanno data e identificativo, per non finire nello spam.",
+    "Impostazioni › E-mail: sopra le impostazioni del server di posta, raccolte dietro il pulsante «Configura e-mail», sotto il testo delle e-mail (spostato qui da «Attività dell'agenda»)."
   ],
-  "sha256": "6184790c3bd63287e459f07096cba34992f9a157b6979eff9c6c035e75eb234a",
-  "sha256_pacchetto": "3a7cdd0036af6352e81bd1ab3a400255c3f28152bef64307401f0ce5e0f84de6",
-  "sha256_installer": "d8675938638ef2c500b7d2ff60fe7e2fbcbd135da154a8def2332a94132a764f"
+  "sha256": "7a4782208319b924f6804afdd15c67d84a8a976c343fddbbc3aee85ce1f9b8af",
+  "sha256_pacchetto": "d09db79c81a77fe185cbcc2202a5412fc9e25fb7361a0e77bea559bb3cbdeeee",
+  "sha256_installer": "878b13f67de025f23265464975e45409b7371d6ea5f09e2bb2a6de38c93dbf71"
 }
